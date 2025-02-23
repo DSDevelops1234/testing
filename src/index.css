@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Jost';
+  font-weight: 700; /* Bold weight */
+  font-style: normal;
+  src: url('assets/fonts/Jost-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Jost';
+  font-weight: 500; /* Medium weight */
+  font-style: normal;
+  src: url('assets/fonts/Jost-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Jost';
+  font-weight: 600; /* Semi-Bold weight */
+  font-style: normal;
+  src: url('assets/fonts/Jost-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 500; /* Medium weight */
+  font-style: normal;
+  src: url('assets/fonts/OpenSans-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 400; /* Regular weight */
+  font-style: normal;
+  src: url('assets/fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Hind';
+  font-weight: 600; /* Semi-Bold weight */
+  font-style: normal;
+  src: url('assets/fonts/Hind-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Hind';
+  font-weight: 400; /* Regular weight */
+  font-style: normal;
+  src: url('assets/fonts/Hind-Regular.ttf') format('truetype');
+}
+
+/* Define font weight classes for Jost font */
+.jost-bold {
+  font-family: 'Jost', sans-serif;
+  font-weight: 700;
+}
+
+.jost-medium {
+  font-family: 'Jost', sans-serif;
+  font-weight: 500;
+}
+
+.jost-semi-bold {
+  font-family: 'Jost', sans-serif;
+  font-weight: 600;
+}
+
+/* Define font weight classes for Open Sans font */
+.open-sans-regular {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.open-sans-medium {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+}
+
+.hind-semi-bold {
+  font-family: 'Hind', sans-serif;
+  font-weight: 600;
+}
+
+.hind-regular {
+  font-family: 'Hind', sans-serif;
+  font-weight: 400;
+}
+
+
+
+@layer base {
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
